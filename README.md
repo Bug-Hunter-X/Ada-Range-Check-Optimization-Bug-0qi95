@@ -1,0 +1,1 @@
+This example demonstrates a potential bug in Ada code related to compiler optimizations impacting range checks.  The `Check_Range` function appears straightforward, but certain compiler optimizations might skip the explicit range check, leading to incorrect results.  The solution offers strategies to avoid this unexpected behavior.
